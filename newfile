@@ -1,0 +1,4 @@
+mkdir testproject......creating folder
+touch newfile......creating a file
+git add .  .......adding new file to the repository
+git status.....check status of the repository
