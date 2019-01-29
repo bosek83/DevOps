@@ -6,3 +6,41 @@ git add new file.......merging modified and old files
 git commt-m "added a new file"
 git log ......check the logs
 git config -global user name Erick
+git diff....
+******************
+$ git log
+commit 9f2c922e8a96d6ffe6dbca9e0fb7a30349f1355f (HEAD -> master)
+Author: Erick K. Bosuben <ebosuben@safaricom.co.ke>
+Date:   Fri Jan 25 12:32:15 2019 +0300
+
+    git status
+
+    Please enter the commit message for your changes. Lines starting
+
+    :wq
+    :WQ
+
+commit 041199d99f215e3fae60f000284e93181aa45b5f
+Author: Erick K. Bosuben <ebosuben@safaricom.co.ke>
+Date:   Fri Jan 25 12:13:09 2019 +0300
+
+    added new files
+
+ebosuben@LTTECH1380 MINGW64 ~/testproject (master)
+$ git diff 9f2c922e8a96d6ffe6dbca9e0fb7a30349f1355f 041199d99f215e3fae60f000284e93181aa45b5f
+diff --git a/newfile b/newfile
+index 5da308e..cf44a10 100644
+--- a/newfile
++++ b/newfile
+@@ -2,7 +2,3 @@ mkdir testproject......creating folder
+ touch newfile......creating a file
+ git add .  .......adding new file to the repository
+ git status.....check status of the repository
+-git add new file.......merging modified and old files
+-git commt-m "added a new file"
+-git log ......check the logs
+-git config -global user name Erick
+
+ebosuben@LTTECH1380 MINGW64 ~/testproject (master)
+$
+*******************************************************
