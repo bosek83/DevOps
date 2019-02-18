@@ -22,5 +22,5 @@ parallel develoment
 		git merge first_branch //this is performed in the master branch
 		git commit -a -m "modified git4" // -a add file in the index
 		cat git4.txt on both the master and the branch. the changes are only on the branch. merge to transfer the changesges to the master
-
 	rebase
+		//does same task as merge but in a different way but rebase allows a cleaner project history
