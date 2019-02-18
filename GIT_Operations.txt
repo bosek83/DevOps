@@ -2,15 +2,25 @@ GIT Operations
 Creating repository///create a repository on git hub
 	git init //create a local repository
 	git remote add origin "https://github.com/bosek83/DevOps.git" //make your remote repository origin
+	git pull origin master
+	git push origin 
 Making changes
-	git status
-	git add 
+	git status // tells you which files are on the index and are ready to commit
+	git add  // adding files to index
+	 git add -A // to add multiple files at once
 	git commit
-syching Repositories
+	 git commit -a -m  // commit multiple files at once
+synching Repositories
 	git add origin
 	git push
 	git pull
 parallel develoment
 	branch 
-	merge
+		git branch first_branch //create a local branch
+		git check out first_branch //switch to local branch
+	merge //combining the works of different branches
+		git merge first_branch //this is performed in the master branch
+		git commit -a -m "modified git4" // -a add file in the index
+		cat git4.txt on both the master and the branch. the changes are only on the branch. merge to transfer the changesges to the master
+
 	rebase
