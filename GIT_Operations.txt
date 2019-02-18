@@ -1,0 +1,16 @@
+GIT Operations
+Creating repository///create a repository on git hub
+	git init //create a local repository
+	git remote add origin "https://github.com/bosek83/DevOps.git" //make your remote repository origin
+Making changes
+	git status
+	git add 
+	git commit
+syching Repositories
+	git add origin
+	git push
+	git pull
+parallel develoment
+	branch 
+	merge
+	rebase
