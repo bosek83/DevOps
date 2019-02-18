@@ -4,6 +4,9 @@ Creating repository///create a repository on git hub
 	git remote add origin "https://github.com/bosek83/DevOps.git" //make your remote repository origin
 	git pull origin master
 	git push origin 
+		generate public ssh key.
+			ssh-keygen //generatessh key to allow push to public repository. add it to github
+			ssh -T git@github.com //go back to github and refresh. green key means authentication was successful
 Making changes
 	git status // tells you which files are on the index and are ready to commit
 	git add  // adding files to index
@@ -24,3 +27,4 @@ parallel develoment
 		cat git4.txt on both the master and the branch. the changes are only on the branch. merge to transfer the changesges to the master
 	rebase
 		//does same task as merge but in a different way but rebase allows a cleaner project history
+		 git rebase first_branch
