@@ -28,3 +28,11 @@ parallel develoment
 	rebase
 		//does same task as merge but in a different way but rebase allows a cleaner project history
 		 git rebase first_branch
+
+git remote add origin https://github.com/bosek83/DevOpsclass.git
+git push origin master //push local repo to remote 
+git remote -v //list all remote repositories linked to your local repository
+git fetch origin //copies changes in remote repo to local repo
+git rebase master //to rebase a branch
+git revert <commit ID> //to revert the changes made in previous commit
+git reset --hard <commit ID> //any changes after this commit cannot ber reverted
