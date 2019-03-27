@@ -28,6 +28,16 @@ parallel develoment
 	rebase
 		//does same task as merge but in a different way but rebase allows a cleaner project history
 		 git rebase first_branch
+IGNORING FILES
+create .gitignore file and add all untracked files to ignore
+edureka@master:~/project$ vi gitignore
+git log
+git commit --amend //change last commit message
+using commit tags
+git tag -a v1.3 -m "version 1.3"
+add tag to a previous commit
+git tag --a v1.3 commit ID -m "addded tag to a previous commit" 
+git show v1.3 
 
 git remote add origin https://github.com/bosek83/DevOpsclass.git
 git push origin master //push local repo to remote 
